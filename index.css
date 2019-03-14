@@ -1,0 +1,121 @@
+* {
+    vertical-align: middle;
+    /* Immaculata Blue */
+    /*color: #0074c8; */
+
+    /* Founder's Blue */
+    color: #003b70;
+
+    font-family: "Avenir Next Condensed";
+
+    /* Animation to have page fade-in */
+    /*animation: fade-in 1.5s ease-out;*/
+}
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+footer {
+    clear: both;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+section {
+    margin-left: 10px;
+}
+
+#homepage-header {
+    height: 300px;
+}
+
+#profile-pic {
+    float: left;
+}
+
+#homepage-header div {
+    padding: 60px;
+    margin-left: 300px;
+}
+
+.logo-label {
+    float: left;
+    margin: 5px 10px 10px 10px;
+}
+
+.coursework-list {
+    columns: 3;
+}
+
+
+.coursework-list li:hover {
+    font-size: 14pt;
+    color: #0074c8;
+    transition: 0.5s ease-in-out 0.25s;
+    -webkit-transition: 0.5s ease-in-out 0.25s;
+}
+.coursework-list li {
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+.proficientSkills li:hover {
+    background-color: rgba(114, 140, 31, 0.6);
+    color: #0074c8;
+    transition: 0.5s ease-in-out 0.25s;
+    -webkit-transition: 0.5s ease-in-out 0.25s;
+}
+.proficientSkills li {
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+.intermediateSkills li:hover {
+    background-color: rgba(238, 170, 43, 0.8);
+    color: #0074c8;
+    transition: 0.5s ease-in-out 0.25s;
+    -webkit-transition: 0.5s ease-in-out 0.25s;
+}
+.intermediateSkills li {
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+.beginnerSkills li:hover {
+    background-color: rgba(184, 82, 25, 0.6);
+    color: #0074c8;
+    transition: 0.5s ease-in-out 0.25s;
+    -webkit-transition: 0.5s ease-in-out 0.25s;
+}
+.beginnerSkills li {
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+.experienceSection h3:hover {
+    font-size: 15pt;
+    color: #0074c8;
+    transition: 0.5s ease-in-out 0.25s;
+    -webkit-transition: 0.5s ease-in-out 0.25s;
+}
+.experienceSection h3 {
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+/* Contact.html specific rules */
+#contactFields {
+    margin-left: 10px;
+    alignment: center;
+}
+
+/* Uncomment the following block to display borders around containers */
+/*
+div, header, section {
+    outline: 1px solid red !important;
+}
+*/
+

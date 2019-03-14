@@ -2,15 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Get In Touch</title>
+    <meta name="description" content="Contact info">
+    <meta name="author" content="Rory Abraham">
+    <link rel="stylesheet" type="text/css" href="../index.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <title>Contact Me</title>
 </head>
 <body>
     <header>
         <nav>
             <a href="../index.html">Home</a>
             <a href="../Portfolio/portfolio.html">My Portfolio</a>
-            <a href="contact.html">Get In Touch</a>
+            <a href="contact.html">Contact Me</a>
         </nav>
     </header>
+
+    <!--TODO: Make/fix container around the contact fields and center items-->
+    <div id="contactFields">
+        <h1>Contact Me</h1>
+        <!--TODO: Add an action tag to this form-->
+        <form>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Your name...">
+            <br><br>
+            <label for="email">E-mail: </label>
+            <input type="text" name="email" id="email" placeholder="Your email...">
+            <br><br>
+            <label for="comment">Comments: </label>
+            <textarea id="comment" name="comment" placeholder="Enter your comments here..." rows="5" cols="50"></textarea>
+            <br><br>
+            <label for="date">Date: </label>
+            <input type="date" name="date" id="date">
+            <input type="submit" value="SUBMIT">
+        </form>
+
+        <a href="https://www.linkedin.com/in/roryabraham/" class="logo-label">
+            <img src="../Images/linked_in_logo.png" alt="" width="50">Find me on LinkedIn</a>
+    </div>
+
+    <footer>
+        <p>&copy 2019</p>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../Portfolio/portfolio.html">My Portfolio</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+    </footer>
 </body>
 </html>

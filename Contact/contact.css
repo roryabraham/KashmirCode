@@ -1,0 +1,13 @@
+input, textarea{
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 8px;
+    margin-left: 8px;
+}
+
+label {
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+    margin-right: 8px;
+}

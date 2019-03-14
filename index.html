@@ -2,15 +2,242 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Personal Resume">
+    <meta name="author" content="Rory Abraham">
     <title>KashmirCode</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-<header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="Portfolio/portfolio.html">My Portfolio</a>
-        <a href="Contact/contact.html">Get In Touch</a>
-    </nav>
-</header>
+    <header id="homepage-header">
+        <img src="Images/profile_picture.jpg" alt="My profile picture" width="300" id="profile-pic">
+        <div>
+            <h1>Rory Abraham | KashmirCode</h1>
+            <h3>My personal resume</h3>
+            <nav>
+                <!--TODO: prettify the nav's: see ZyBooks 5.4 on navs-->
+               <!-- <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>-->
+                <a href="index.html">Home</a>
+                <a href="Portfolio/portfolio.html">My Portfolio</a>
+                <a href="Contact/contact.html">Contact Me</a>
+            </nav>
+        </div>
+    </header>
+
+    <section style="clear: both">
+        <h2><u>My Education</u></h2>
+        <!--TODO: Add modals to bring up more information about my schooling such as GPA, graduation date, etc... -->
+        <img src="Images/USD_logo.png" alt="" width = "50" class="logo-label">
+        <div>
+            <strong>University of San Diego, Shiley-Marcos School of Engineering</strong><br>
+            B.S. in Computer Science<br>
+            <em>Minors in Finance and Mathematics</em>
+        </div>
+        <br>
+        <img src="Images/grossmont_logo.png" alt="" width = "50" class="logo-label">
+        <div>
+            <strong>Grossmont College</strong><br>
+            A.A. in Social and Behavioral Sciences<br>
+            <em>Graduated with Honors</em>
+        </div>
+        <div>
+            <h3><u>Relevant Coursework: </u></h3>
+            <ul class="coursework-list">
+                <li>Computational Problem Solving</li>
+                <li>Programming Abstractions and Methodologies</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Intro to Computer Systems</li>
+                <li>Computer Networking</li>
+                <li>Neural Networks</li>
+                <li>Object-Oriented Design and Programming</li>
+                <li>Logic for Math and Computer Science</li>
+                <li>Automata, Computability, and Formal Languages</li>
+                <li>Web Development</li>
+                <li>Advanced Algorithms</li>
+                <li>Multivariable Calculus</li>
+                <li>Engineering Probability and Statistics</li>
+                <li>Advanced Probability</li>
+                <li>Engineering Physics: Mechanics</li>
+                <li>Financial Accounting</li>
+                <li>Managerial Accounting</li>
+                <li>Linear Algebra</li>
+            </ul>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2><u>Skills</u></h2>
+        <!--skills table separating skills by familiarity-->
+        <table>
+            <tr>
+                <th></th>
+                <th>Proficient</th>
+                <th>Intermediate</th>
+                <th>Beginner</th>
+            </tr>
+            <tr>
+                <th>Programming Skills</th>
+                <td>
+                    <ul class="proficientSkills">
+                        <li>Java</li>
+                        <li>JavaFX</li>
+                        <li>Python</li>
+                        <li>C/C++</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="intermediateSkills">
+                        <li>Bash</li>
+                        <li>NumPy</li>
+                        <li>Pandas</li>
+                        <li>JSON</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="beginnerSkills">
+                        <li>PHP</li>
+                        <li>C#</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Web Development Skills</th>
+                <td>
+                    <ul class="proficientSkills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="intermediateSkills">
+                        <li>JavaScript</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="beginnerSkills">
+                        <li>JQuery</li>
+                        <li>Node.JS</li>
+                        <li>React</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Design/Project Development Skills</th>
+                <td>
+                    <ul class="proficientSkills">
+                        <li>Object-Oriented Design</li>
+                        <li>Data/Procedural Abstraction</li>
+                        <li>UML Diagramming</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="intermediateSkills">
+                        <li>Statistical Modeling</li>
+                        <li>Wire-framing</li>
+                        <li>Timeline Development</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="beginnerSkills">
+                        <li>AGILE Software Development</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Software Skills</th>
+                <td>
+                    <ul class="proficientSkills">
+                        <li>JetBrains Suite</li>
+                        <li>Microsoft Word</li>
+                        <li>Microsoft Powerpoint</li>
+                        <li>Trello</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="intermediateSkills">
+                        <li>Git</li>
+                        <li>Microsoft Excel</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="beginnerSkills">
+                        <li>Autodesk Fusion 360</li>
+                        <li>Unity</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Other Skills</th>
+                <td>
+                    <ul class="proficientSkills">
+                        <li>Written Communication</li>
+                        <li>Teamwork and Coordination</li>
+                        <li>Time Management</li>
+                        <li>Critical Analysis</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="intermediateSkills">
+                        <li>Public Speaking</li>
+                        <li>Project Management</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section class="experienceSection">
+        <h2><u>Experience</u></h2>
+        <h3>Associated Students Senator, University of San Diego ASB</h3>
+        <ul>
+            <li>Represent the interests of the student body in an elected position</li>
+            <li>Serve on the Student Organizations Committee and Academic Integrity Council</li>
+            <li>Mediate issues between student organizations and campus administrators</li>
+        </ul>
+        <h3>Front-end Development Intern, Keylitic</h3>
+        <ul>
+            <li>Helped with the front-end development of a React-Based web marketing tool</li>
+            <li>Collaborated on key design decisions and on product definition</li>
+            <li>Researched and helped to implement various third party integrations through the use of APIs</li>
+        </ul>
+        <h3>Setup and Audio Technician, Daversa Enterprises</h3>
+        <ul>
+            <li>Set up, operate, and troubleshoot audio systems including recording equipment</li>
+            <li>Coordinate logistics and setup of outdoor weddings</li>
+        </ul>
+        <h3>Shift Lead, RUST General Store</h3>
+        <ul>
+            <li>Acted as server, barista, cook, cashier and busser</li>
+            <li>Developed company culture, trained and supervised other employees</li>
+            <li>Maintained a circa-1860's character and educated customers on local San Diego history</li>
+        </ul>
+        <h3>Head Coach, East County Volleyball Club</h3>
+        <ul>
+            <li>Taught me leadership, versatility, multi-tasking, administration, and the ability to foster an inclusive and productive environment</li>
+            <li>One of several coaching positions I have held over the course of several years</li>
+        </ul>
+        <h3>Academic Tutor, Los Gatos High School</h3>
+        <ul>
+            <li>Tutored students in a wide range of subjects, including Physics, Math, and English</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>&copy 2019</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Portfolio/portfolio.html">My Portfolio</a>
+            <a href="Contact/contact.html">Contact Me</a>
+        </nav>
+    </footer>
 </body>
 </html>
