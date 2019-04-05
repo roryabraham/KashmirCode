@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 100%;
+}
+
+/* Side-margins*/
+.row {
+    margin: 8px -16px;
+}
+
+/* Padding between columns */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* float four columns side-by-side */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* style white background on cards */
+.card {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes a one-column stack instead of two columns*/
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}

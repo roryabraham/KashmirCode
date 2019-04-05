@@ -28,9 +28,19 @@
     box-shadow: 2px 2px rgba(168, 168, 168, 0.5);
 }
 
-/*.kashmir {
-    !*background: linear-gradient(to right, #0074c8, #c25219, #eeaa2b, #00a499, #5a2b81, #0074c8);*!
+.codeTypeFolder:hover {
+    background-color: ghostwhite;
+    transform: scale(1.01);
+}
+
+.codeTypeFolder h3 {
+    text-shadow: none;
+}
+
+.kashmir {
+    /*background: linear-gradient(to right, #0074c8, #c25219, #eeaa2b, #00a499, #5a2b81, #0074c8);*/
     background: linear-gradient(to right, #0074c8, #eeaa2b, #5a2b81, #00a499, #0074c8);
     color: transparent;
     -webkit-background-clip: text;
-}*/
+    text-shadow: none;
+}

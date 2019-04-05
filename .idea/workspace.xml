@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592fb391-d064-4d6b-b75e-8afe79a7e78c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contact/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/C++Portfolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/JavaPortfolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/JavaScriptPortfolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/PythonPortfolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/portfolio.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Adventures/adventures.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Adventures/adventures.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio/javaPortfolio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio/portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/Contact/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contact/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/C++Portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/C++Portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/JavaPortfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/JavaPortfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/JavaScriptPortfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/JavaScriptPortfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/PythonPortfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/PythonPortfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,28 +42,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="3" />
-          <entry key="html" value="18" />
+          <entry key="css" value="7" />
+          <entry key="html" value="32" />
           <entry key="jpg" value="1" />
+          <entry key="js" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
-          <entry key="HTML" value="18" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="32" />
           <entry key="Image" value="1" />
+          <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3401" />
-          <entry key="html" value="8962" />
+          <entry key="css" value="4347" />
+          <entry key="html" value="10411" />
+          <entry key="js" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3401" />
-          <entry key="HTML" value="8962" />
+          <entry key="CSS" value="4347" />
+          <entry key="HTML" value="10411" />
+          <entry key="JavaScript" value="42" />
         </counts>
       </usages-collector>
     </session>
@@ -69,8 +77,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="605">
+              <caret line="240" column="77" selection-start-line="240" selection-start-column="77" selection-end-line="240" selection-end-column="77" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,49 +89,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Portfolio/portfolio.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Portfolio/portfolio.css">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Adventures/adventures.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Contact/contact.html">
+        <entry file="file://$PROJECT_DIR$/Adventures/adventures.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Contact/contact.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="15">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -130,6 +118,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
       </list>
@@ -139,6 +128,10 @@
     <findStrings>
       <find>0.35</find>
       <find>transition</find>
+      <find>text-align</find>
+      <find>display</find>
+      <find>img</find>
+      <find>h1</find>
     </findStrings>
     <replaceStrings>
       <replace>0.5</replace>
@@ -153,16 +146,23 @@
         <option value="$PROJECT_DIR$/Portfolio.html" />
         <option value="$PROJECT_DIR$/portfolio.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/Portfolio/JavaPortfolio.html" />
-        <option value="$PROJECT_DIR$/Portfolio/PythonPortfolio.html" />
-        <option value="$PROJECT_DIR$/Portfolio/JavaScriptPortfolio.html" />
-        <option value="$PROJECT_DIR$/Portfolio/C++Portfolio.html" />
-        <option value="$PROJECT_DIR$/Contact/contact.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/Contact/contact.css" />
-        <option value="$PROJECT_DIR$/Portfolio/portfolio.html" />
         <option value="$PROJECT_DIR$/Portfolio/portfolio.css" />
+        <option value="$PROJECT_DIR$/Portfolio/javaPortfolio.css" />
+        <option value="$PROJECT_DIR$/Portfolio/portfolio.js" />
+        <option value="$PROJECT_DIR$/Contact/contact.css" />
+        <option value="$PROJECT_DIR$/AboutMe/AboutMe.html" />
+        <option value="$PROJECT_DIR$/AboutMe/AdventuresAndEscapades.html" />
+        <option value="$PROJECT_DIR$/Adventures/Adventures.html" />
+        <option value="$PROJECT_DIR$/Adventures/adventures.css" />
         <option value="$PROJECT_DIR$/index.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Adventures/adventures.html" />
+        <option value="$PROJECT_DIR$/Contact/contact.html" />
+        <option value="$PROJECT_DIR$/Portfolio/portfolio.html" />
+        <option value="$PROJECT_DIR$/Portfolio/PythonPortfolio.html" />
+        <option value="$PROJECT_DIR$/Portfolio/C++Portfolio.html" />
+        <option value="$PROJECT_DIR$/Portfolio/JavaPortfolio.html" />
+        <option value="$PROJECT_DIR$/Portfolio/JavaScriptPortfolio.html" />
       </list>
     </option>
   </component>
@@ -171,6 +171,14 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/functions/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/functions/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
@@ -192,7 +200,12 @@
             <path>
               <item name="KashmirCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="KashmirCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Contact" type="462c0819:PsiDirectoryNode" />
+              <item name="Adventures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KashmirCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KashmirCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,12 +250,12 @@
       <workItem from="1550268758242" duration="18000" />
       <workItem from="1550720806716" duration="278000" />
       <workItem from="1550796869173" duration="19816000" />
-      <workItem from="1552315834794" duration="7172000" />
+      <workItem from="1552315834794" duration="15083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33565000" />
+    <option name="totallyTimeSpent" value="41476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -279,45 +292,54 @@
     <entry file="file://$PROJECT_DIR$/Images/profile_picture.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/JavaPortfolio.html">
+    <entry file="file://$PROJECT_DIR$/Portfolio/portfolio.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/javaPortfolio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/PythonPortfolio.html">
+    <entry file="file://$PROJECT_DIR$/Portfolio/portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/JavaScriptPortfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/C++Portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <caret line="21" selection-start-line="21" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Contact/contact.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="240" column="77" selection-start-line="240" selection-start-column="77" selection-end-line="240" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Contact/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="48" column="80" selection-start-line="48" selection-start-column="80" selection-end-line="48" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Portfolio/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="633">
+          <caret line="63" column="80" selection-start-line="63" selection-start-column="80" selection-end-line="63" selection-end-column="80" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -326,31 +348,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/portfolio.css">
+    <entry file="file://$PROJECT_DIR$/Portfolio/PythonPortfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="420">
+          <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Contact/contact.html">
+    <entry file="file://$PROJECT_DIR$/Adventures/adventures.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        <state relative-caret-position="620">
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/C++Portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/JavaPortfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="73" column="80" selection-start-line="73" selection-start-column="80" selection-end-line="73" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/JavaScriptPortfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adventures/adventures.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>

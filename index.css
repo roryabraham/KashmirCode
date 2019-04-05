@@ -9,7 +9,19 @@
     font-family: "Avenir Next Condensed";
 
     /* Animation to have page fade-in */
-    /*animation: fade-in 1.5s ease-out;*/
+    animation: fade-in 0.65s ease-out;
+}
+
+hr {
+    clear: both;
+}
+
+nav a {
+    margin: 0 20px 0 0;
+}
+
+h1, h2, h3 {
+    text-shadow: 2px 2px lightgrey;
 }
 
 @keyframes fade-in {
@@ -113,9 +125,7 @@ section {
 }
 
 /* Uncomment the following block to display borders around containers */
-/*
-div, header, section {
+/*div, header, section {
     outline: 1px solid red !important;
-}
-*/
+}*/
 

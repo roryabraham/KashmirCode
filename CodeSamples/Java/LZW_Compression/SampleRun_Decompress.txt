@@ -1,0 +1,62 @@
+Script started on Mon Apr 16 20:53:58 2018
+[?1034hbash-3.2$ /Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Bells.txt
+bash: /Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Bells.txt: Permission denied
+bash-3.2$ java C[KDecompress /Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Bells.txt
+File Found!
+File: /Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Bells.txt already exists!
+ Would you like to overwrite existing file? (enter y for yes or n for no)
+y
+
+File created!
+Filepath: /Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Bells.txt
+
+File: /Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Bells.txt.log already exists!
+ Would you like to overwrite existing file? (enter y for yes or n for no)
+y
+
+File created!
+Filepath: /Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Bells.txt.log
+
+
+Would you like to decompress another file?
+y
+Please enter the name of the file you would like to decompress.
+/Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Businessman.txt
+File Found!
+File: /Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Businessman.txt already exists!
+ Would you like to overwrite existing file? (enter y for yes or n for no)
+y
+
+File created!
+Filepath: /Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Businessman.txt
+
+File: /Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Businessman.txt.log already exists!
+ Would you like to overwrite existing file? (enter y for yes or n for no)
+y
+
+File created!
+Filepath: /Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Businessman.txt.log
+
+
+Would you like to decompress another file?
+y
+Please enter the name of the file you would like to decompress.
+/Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Raven.txt
+File Found!
+File: /Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Raven.txt already exists!
+ Would you like to overwrite existing file? (enter y for yes or n for no)
+y
+
+File created!
+Filepath: /Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Raven.txt
+
+File created!
+Filepath: /Users/rory/IdeaProjects/comp_285/COMP285_Proj2/src/SampleTexts/Raven.txt.log
+
+
+Would you like to decompress another file?
+n
+bash-3.2$ exit
+exit
+
+Script done on Mon Apr 16 20:55:36 2018
