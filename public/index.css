@@ -20,7 +20,8 @@ nav a {
     margin: 0 20px 0 0;
 }
 
-h1, h2, h3 {
+/* TODO: think about whether I want other header types to have text shadow */
+h1 {
     text-shadow: 2px 2px lightgrey;
 }
 
@@ -107,13 +108,13 @@ section {
     -webkit-transition: 0.5s ease-in-out;
 }
 
-.experienceSection h3:hover {
+#experienceSection h3:hover {
     font-size: 15pt;
     color: #0074c8;
     transition: 0.5s ease-in-out 0.25s;
     -webkit-transition: 0.5s ease-in-out 0.25s;
 }
-.experienceSection h3 {
+#experienceSection h3 {
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
 }
