@@ -11,3 +11,11 @@ label {
     text-align: right;
     margin-right: 8px;
 }
+
+.valid {
+    background-color: lightgreen;
+}
+
+.invalid {
+    background-color: rgba(255, 0, 0, 0.5);
+}
