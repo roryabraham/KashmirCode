@@ -6,7 +6,7 @@
     /* Founder's Blue */
     color: #003b70;
 
-    font-family: "Avenir Next Condensed";
+    font-family: "Avenir Next Condensed", Helvetica;
 
     /* Animation to have page fade-in */
     animation: fade-in 0.65s ease-out;
@@ -115,6 +115,7 @@ section {
     -webkit-transition: 0.5s ease-in-out 0.25s;
 }
 #experienceSection h3 {
+    color: #003b70;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
 }
