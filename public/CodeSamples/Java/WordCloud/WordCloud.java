@@ -1,23 +1,6 @@
-package sample;
-
 import javafx.application.Application;
-import javafx.geometry.HPos;
-import javafx.geometry.Orientation;
-import javafx.geometry.Point2D;
-import javafx.geometry.Pos;
-import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
-import javafx.scene.image.Image;
-import javafx.scene.layout.*;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Circle;
-import javafx.scene.text.Font;
-import javafx.scene.text.FontPosture;
-import javafx.scene.text.FontWeight;
-import javafx.scene.text.TextAlignment;
+import javafx.geometry.*;
+import javafx.scene.*;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
@@ -28,11 +11,6 @@ import java.util.List;
 
 
 public class WordCloud extends Application {
-
-    //My Absolute FilePaths:
-    ///Users/rory/IdeaProjects/WordCloud/src/sample/Raven.txt
-    ///Users/rory/IdeaProjects/WordCloud/src/sample/stop-words.txt
-
 
     //make these GUI elements static so they can be accessed from displayWords()
     private static FlowPane flow = new FlowPane();
@@ -316,7 +294,7 @@ public class WordCloud extends Application {
             String temp = entry.getKey();
             int tempInt = entry.getValue();
 
-            //Depending on length of the file, it may be necessary to disinclude unique words used only once (hence line 317)
+            //Depending on length of the file, it may be necessary to disinclude unique words used only once
             //if(entry.getValue() > 1)
             {
                 //build the label with the String key

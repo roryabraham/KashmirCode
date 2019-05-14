@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blackjack</title>
+
+    <!-- Include Prism -->
+    <link rel="stylesheet" type="text/css" href="../../../prism.css">
+    <script src="../../../prism.js"></script>
+
+    <!-- Include JQuery and JQueryUI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../jquery-ui-1.12.1.custom/jquery-ui.theme.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../../../index.css">
+    <script src="../../portfolio.js"></script>
+    <script defer>
+        const projectSourceRoot = "http://localhost:5000/CodeSamples/Java/BlackJack/";
+        const filepaths = {
+            Game : projectSourceRoot + "Game.java",
+            Player : projectSourceRoot + "Player.java",
+            Card : projectSourceRoot + "Card.java",
+            Hand : projectSourceRoot + "Hand.java"
+        };
+
+        $(function() {
+            $("#tabs").tabs({
+                create: function() {
+                    loadAllCodeSamples(filepaths, "language-java");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../../index.html">Home</a>
+            <a href="../../portfolio.html">My Portfolio</a>
+            <a href="../../../Adventures/adventures.html">Adventures and Escapades</a>
+            <a href="../../../Contact/contact.html">Contact Me</a>
+        </nav>
+    </header>
+    <hr>
+
+    <h1>Simple JavaFX Blackjack Game</h1>
+    <div id="tabs">
+        <ul>
+            <li><a href="#Game">Game.java</a></li>
+            <li><a href="#Player">Player.java</a></li>
+            <li><a href="#Card">Card.java</a></li>
+            <li><a href="#Hand">Hand.java</a></li>
+        </ul>
+        <div class="codeBlock" id="Game"></div>
+        <div class="codeBlock" id="Player"></div>
+        <div class="codeBlock" id="Card"></div>
+        <div class="codeBlock" id="Hand"></div>
+    </div>
+
+    <hr>
+    <footer>
+        <p>&copy 2019</p>
+        <nav>
+            <a href="../../../index.html">Home</a>
+            <a href="../../portfolio.html">My Portfolio</a>
+            <a href="../../../Adventures/adventures.html">Adventures and Escapades</a>
+            <a href="../../../Contact/contact.html">Contact Me</a>
+        </nav>
+    </footer>
+</body>
+</html>

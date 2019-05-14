@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rory Abraham">
+    <title>Producer-Consumer</title>
+
+    <!-- Include Prism -->
+    <link rel="stylesheet" type="text/css" href="../../../prism.css">
+    <script src="../../../prism.js"></script>
+
+    <!-- Include JQuery and JQueryUI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../jquery-ui-1.12.1.custom/jquery-ui.theme.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../../../index.css">
+    <script src="../../portfolio.js"></script>
+    <script defer>
+        const projectSourceRoot = "http://localhost:5000/CodeSamples/C/Producer-Consumer/";
+        const filepaths = {
+            buff_c : projectSourceRoot + "Buffer.c",
+            buff_h : projectSourceRoot + "Buffer.h",
+            consumer_c : projectSourceRoot + "Consumer.c",
+            consumer_h : projectSourceRoot + "Consumer.h",
+            producer_c : projectSourceRoot + "Producer.c",
+            producer_h : projectSourceRoot + "Producer.h",
+            main : projectSourceRoot + "main.c",
+        };
+
+        $(function() {
+            $("#tabs").tabs({
+                create: function() {
+                    loadAllCodeSamples(filepaths, "language-c");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../../index.html">Home</a>
+            <a href="../../portfolio.html">My Portfolio</a>
+            <a href="../../../Adventures/adventures.html">Adventures and Escapades</a>
+            <a href="../../../Contact/contact.html">Contact Me</a>
+        </nav>
+    </header>
+    <hr>
+
+    <h1>A solution for the Producer-Consumer problem using a mutex</h1>
+    <div id="tabs">
+        <ul>
+            <li><a href="#buff_c">Buffer.c</a></li>
+            <li><a href="#buff_h">Buffer.h</a></li>
+            <li><a href="#consumer_c">Consumer.c</a></li>
+            <li><a href="#consumer_h">Consumer.h</a></li>
+            <li><a href="#producer_c">Producer.c</a></li>
+            <li><a href="#producer_h">Producer.h</a></li>
+            <li><a href="#main">main.c</a></li>
+        </ul>
+        <div class="codeBlock" id="buff_c"></div>
+        <div class="codeBlock" id="buff_h"></div>
+        <div class="codeBlock" id="consumer_c"></div>
+        <div class="codeBlock" id="consumer_h"></div>
+        <div class="codeBlock" id="producer_c"></div>
+        <div class="codeBlock" id="producer_h"></div>
+        <div class="codeBlock" id="main"></div>
+    </div>
+
+    <hr>
+    <footer>
+        <p>&copy 2019</p>
+        <nav>
+            <a href="../../../index.html">Home</a>
+            <a href="../../portfolio.html">My Portfolio</a>
+            <a href="../../../Adventures/adventures.html">Adventures and Escapades</a>
+            <a href="../../../Contact/contact.html">Contact Me</a>
+        </nav>
+    </footer>
+</body>
+</html>

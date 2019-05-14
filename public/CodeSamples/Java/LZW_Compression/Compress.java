@@ -6,9 +6,7 @@ import java.util.Scanner;
 public class Compress
 {
     final static int MIN_TABLE_SIZE = 501;
-    //TODO: make sure all scanners and printWriters are properly closed
 
-    //TODO: dictionary should have three parts: map pairs of prefix (short) and char to code (short)
     public static void main(String[] args) throws IOException
     {
         //pass filename to compression method

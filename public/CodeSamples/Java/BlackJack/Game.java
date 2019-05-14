@@ -3,25 +3,12 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import javafx.animation.FadeTransition;
-import javafx.animation.ParallelTransition;
-import javafx.animation.PathTransition;
+import javafx.animation.*;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
-import javafx.geometry.Insets;
-import javafx.geometry.Orientation;
-import javafx.geometry.Pos;
-import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.layout.*;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Line;
-import javafx.scene.text.Font;
+import javafx.geometry.*;
+import javafx.scene.*;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
@@ -101,7 +88,9 @@ public class Game extends Application {
 
         //create a borderPane for the main Stage
         BorderPane mainBorder = new BorderPane();
-        mainBorder.setBackground(new Background(new BackgroundFill(Color.DARKGREEN.desaturate().desaturate(),CornerRadii.EMPTY, Insets.EMPTY)));
+        mainBorder.setBackground(new Background(new BackgroundFill(Color.DARKGREEN.desaturate().desaturate()
+                                                ,CornerRadii.EMPTY,
+                                                Insets.EMPTY)));
 
         //Display title logo in mainBorder
         try{
@@ -370,7 +359,10 @@ public class Game extends Application {
 
                 //create path transition
                 PathTransition pathTransition = new PathTransition(Duration.millis(1500),
-                        new Line(cardImageView.getX()+35,cardImageView.getY()-500,cardImageView.getX()+35,cardImageView.getY()+50),
+                        new Line(cardImageView.getX()+35,
+                                 cardImageView.getY()-500,
+                                 cardImageView.getX()+35,
+                                 cardImageView.getY()+50),
                         cardImageView);
 
                 //create fade transition
@@ -400,7 +392,10 @@ public class Game extends Application {
 
                 //create path transition
                 PathTransition pathTransition = new PathTransition(Duration.millis(1500),
-                        new Line(cardImageView.getX()+35,cardImageView.getY()-500,cardImageView.getX()+35,cardImageView.getY()+50),
+                        new Line(cardImageView.getX()+35,
+                                 cardImageView.getY()-500,
+                                 cardImageView.getX()+35,
+                                 cardImageView.getY()+50),
                         cardImageView);
 
                 //create fade transition

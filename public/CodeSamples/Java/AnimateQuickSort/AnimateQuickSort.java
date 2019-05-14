@@ -1,19 +1,14 @@
-/*Name: AnimateQuickSort
+/**
+Name: AnimateQuickSort
 Authors: Rory Abraham and Parth Bansal
 Date: 12/19/17
-Description: Generates an array of 20 random integers between 0 and 999. Animates one pass of the partition algorithm
-        in QuickSort. */
+Description: Generates an array of 20 random integers between 0 and 999.
+             Animates one pass of the partition algorithm in QuickSort.
+*/
 
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
-import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.layout.*;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Circle;
-import javafx.scene.shape.Rectangle;
+import javafx.scene.*;
 import javafx.stage.Stage;
 import java.util.Random;
 
@@ -101,7 +96,9 @@ public class AnimateQuickSort extends javafx.application.Application {
         //container for values
         listBox = new HBox(15);
         listBox.setAlignment(Pos.BASELINE_CENTER);
-        //listBox.setBackground(new Background(new BackgroundFill(Color.rgb(238,238,238),CornerRadii.EMPTY,Insets.EMPTY)));
+        //listBox.setBackground(new Background(new BackgroundFill(Color.rgb(238,238,238),
+                                                                  CornerRadii.EMPTY,
+                                                                  Insets.EMPTY)));
 
         //add list values to container
         displayList(specialList);
@@ -262,16 +259,16 @@ public class AnimateQuickSort extends javafx.application.Application {
             else
             {
                 //perform swap
-                    int temp = specialList.valueAt(specialList.getHighIndex());
+                int temp = specialList.valueAt(specialList.getHighIndex());
 
-                    //set value at high index to value at low index
-                    specialList.setValueAt(specialList.getHighIndex(),specialList.valueAt(specialList.getLowIndex()));
+                //set value at high index to value at low index
+                specialList.setValueAt(specialList.getHighIndex(),specialList.valueAt(specialList.getLowIndex()));
 
-                    //set value at low index to value at high index
-                    specialList.setValueAt(specialList.getLowIndex(),temp);
+                //set value at low index to value at high index
+                specialList.setValueAt(specialList.getLowIndex(),temp);
 
-                    //redisplay list
-                    displayList(specialList);
+                //redisplay list
+                displayList(specialList);
             }
         }
 
@@ -282,17 +279,18 @@ public class AnimateQuickSort extends javafx.application.Application {
             if(specialList.valueAt(specialList.getPivotIndex()) > specialList.valueAt(specialList.getLowIndex()-1))
             {
                 //swap pivot and low (values)
-                    int temp = specialList.valueAt(specialList.getPivotIndex());
+                int temp = specialList.valueAt(specialList.getPivotIndex());
 
-                    //set value at pivot to value at high
-                    specialList.setValueAt(specialList.getPivotIndex(),specialList.valueAt(specialList.getLowIndex()-1));
+                //set value at pivot to value at high
+                specialList.setValueAt(specialList.getPivotIndex(),
+                                       specialList.valueAt(specialList.getLowIndex()-1));
 
-                    //set value at high index to pivot
-                    specialList.setValueAt(specialList.getLowIndex()-1,temp);
+                //set value at high index to pivot
+                specialList.setValueAt(specialList.getLowIndex()-1,temp);
 
                 //swap pivot and low (indexes)---for color/styling purposes
-                    specialList.setPivotIndex(specialList.getLowIndex()-1);
-                    specialList.setLowIndex(0);
+                specialList.setPivotIndex(specialList.getLowIndex()-1);
+                specialList.setLowIndex(0);
 
                 //redisplay list
                 displayList(specialList);
