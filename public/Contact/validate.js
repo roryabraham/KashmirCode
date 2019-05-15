@@ -19,12 +19,12 @@ $(function() {
         $form.reset();
     };
 
-    // Timeout form after 30 seconds of inactivity
-    let timeout = setTimeout(resetForm, 30000);
+    // Timeout form after 75 seconds of inactivity
+    let timeout = setTimeout(resetForm, 75000);
 
     const resetTimeout = function(event) {
         clearTimeout(timeout);
-        timeout = setTimeout(resetForm, 30000);
+        timeout = setTimeout(resetForm, 75000);
     };
 
     // validation function for name input element

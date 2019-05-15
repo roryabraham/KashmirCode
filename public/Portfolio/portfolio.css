@@ -21,7 +21,7 @@
 
 .codeTypeFolder {
     background-color: white;
-    margin: 20px 40px 20px 40px;
+    margin: 2vh 1vw 2vh 1vw;
     text-align: center;
     border: 1px solid white;
     border-radius: 8px;
@@ -37,10 +37,33 @@
     text-shadow: none;
 }
 
+.codeTypeFolder div {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+}
+
+.codeTypeFolder img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
 .kashmir {
     /*background: linear-gradient(to right, #0074c8, #c25219, #eeaa2b, #00a499, #5a2b81, #0074c8);*/
     background: linear-gradient(to right, #0074c8, #eeaa2b, #5a2b81, #00a499, #0074c8);
     color: transparent;
     -webkit-background-clip: text;
     text-shadow: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .portfolioColumn {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .portfolioColumn {
+        width: 100%;
+    }
 }

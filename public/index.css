@@ -17,7 +17,7 @@ hr {
 }
 
 nav a {
-    margin: 0 20px 0 0;
+    margin: 0 2vw 0 0;
 }
 
 /* TODO: think about whether I want other header types to have text shadow */
@@ -44,7 +44,15 @@ section {
 }
 
 #homepage-header {
-    height: 300px;
+    height: 25%;
+}
+
+#educationSection {
+    height: 40%;
+}
+
+#skillsSection {
+    height: 80%;
 }
 
 #profile-pic {
@@ -52,8 +60,8 @@ section {
 }
 
 #homepage-header div {
-    padding: 60px;
-    margin-left: 300px;
+    padding: 5%;
+    margin-left: 25%;
 }
 
 .logo-label {
@@ -127,7 +135,7 @@ section {
 }
 
 /* Uncomment the following block to display borders around containers */
-/*div, header, section {
+div, header, section {
     outline: 1px solid red !important;
-}*/
+}
 
