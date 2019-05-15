@@ -135,7 +135,7 @@ section {
 }
 
 /* Uncomment the following block to display borders around containers */
-div, header, section {
+/*div, header, section {
     outline: 1px solid red !important;
-}
+}*/
 
