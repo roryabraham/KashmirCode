@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592fb391-d064-4d6b-b75e-8afe79a7e78c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/KashmirCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KashmirCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KashmirCode.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/Adventures/adventures.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Adventures/adventures.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/Adventures/adventures.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Adventures/adventures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Portfolio/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Portfolio/portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Portfolio/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Adventures/adventures.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Adventures/adventures.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Adventures/adventures.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="111" column="17" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+            <state relative-caret-position="87">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2051">
+              <caret line="139" column="1" lean-forward="true" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -32,8 +44,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Adventures/adventures.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="-25">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="211" column="20" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -41,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Adventures/adventures.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="122">
+              <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -76,6 +97,11 @@
       <find>slide fade-in</find>
       <find>slides:</find>
       <find>display</find>
+      <find>alt = &quot;&quot;</find>
+      <find>animation</find>
+      <find>opacity</find>
+      <find>0.</find>
+      <find>margin</find>
     </findStrings>
     <replaceStrings>
       <replace>0.5</replace>
@@ -84,6 +110,7 @@
       <replace>fade-in</replace>
       <replace>slide</replace>
       <replace>slide:</replace>
+      <replace>alt = &quot;&quot;/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -120,7 +147,6 @@
         <option value="$PROJECT_DIR$/public/Contact/validate.js" />
         <option value="$PROJECT_DIR$/public/Contact/mailer.js" />
         <option value="$PROJECT_DIR$/functions/index.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/404.html" />
         <option value="$PROJECT_DIR$/public/Portfolio/PythonPortfolio.html" />
         <option value="$PROJECT_DIR$/public/Portfolio/JavaScriptPortfolio.html" />
@@ -141,12 +167,13 @@
         <option value="$PROJECT_DIR$/public/Portfolio/portfolio.css" />
         <option value="$PROJECT_DIR$/public/Adventures/adventures.js" />
         <option value="$PROJECT_DIR$/public/index.css" />
-        <option value="$PROJECT_DIR$/public/Adventures/adventures.html" />
         <option value="$PROJECT_DIR$/public/Adventures/adventures.css" />
+        <option value="$PROJECT_DIR$/public/Adventures/adventures.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="56" />
     <option name="y" value="23" />
     <option name="width" value="1194" />
@@ -158,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,31 +201,13 @@
               <item name="KashmirCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="KashmirCode" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="Adventures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KashmirCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KashmirCode" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="Contact" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KashmirCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KashmirCode" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="Images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KashmirCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KashmirCode" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="Images" type="462c0819:PsiDirectoryNode" />
-              <item name="hero_images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,53 +269,60 @@
       <workItem from="1563219264885" duration="173000" />
       <workItem from="1563466884558" duration="10000" />
       <workItem from="1563519309900" duration="562000" />
-      <workItem from="1563522165200" duration="14364000" />
+      <workItem from="1563522165200" duration="20561000" />
+      <workItem from="1564504506789" duration="4623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142531000" />
+    <option name="totallyTimeSpent" value="153351000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="23" width="1194" height="811" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22080137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18252291" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46746987" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4673157" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.15020862" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38072288" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18252291" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4673157" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.15020862" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/CodeSamples/Java/AnimateQuickSort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-309" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/CodeSamples/Java/AnimateQuickSort/RadixSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3639" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/CodeSamples/Java/AnimateQuickSort/SpecialList.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/CodeSamples/Java/LZW_Compression/Compress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2897">
@@ -554,38 +569,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/public/Images/card_covers/ireland.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Images/card_covers/sequoia.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Images/card_covers/lakeElsinore.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2082">
-          <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Adventures/adventures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Adventures/adventures.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="2051">
+          <caret line="139" column="1" lean-forward="true" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Adventures/adventures.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="111" column="17" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+        <state relative-caret-position="87">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Adventures/adventures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Adventures/adventures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="211" column="20" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
         </state>
       </provider>
     </entry>
