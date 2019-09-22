@@ -74,6 +74,8 @@ const slideTransition = () => {
 };
 */
 
+// TODO: display loading spinner in top section until images load
+
 let slideIndex = 1;
 
 function showSlides() {

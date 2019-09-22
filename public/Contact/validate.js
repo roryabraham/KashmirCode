@@ -5,6 +5,8 @@
     Dependent on: jQuery
  */
 
+const sendEmailFuncURL = 'https://us-central1-kashmircode.cloudfunctions.net/sendEmail';
+
 // First wait for the DOM to be fully loaded
 $(function() {
     const $name = $("#name");
@@ -20,11 +22,11 @@ $(function() {
     };
 
     // Timeout form after 75 seconds of inactivity
-    let timeout = setTimeout(resetForm, 75000);
+    let timeout = setTimeout(resetForm, 400000);
 
     const resetTimeout = function(event) {
         clearTimeout(timeout);
-        timeout = setTimeout(resetForm, 75000);
+        timeout = setTimeout(resetForm, 400000);
     };
 
     // validation function for name input element
@@ -86,6 +88,30 @@ $(function() {
         }
     };
 
+    const onSendEmailSuccess = () => {
+        alert("Message sent!");
+    };
+
+    const onSendEmailFail = () => {
+        alert("Error! Message not sent!")
+    };
+
+    // Wrapper function to validate form then send email
+    const submitForm = function (event) {
+        validateForm(event);
+        console.log("here");
+        let body = {
+            name: $name.val(),
+            email: $email.val(),
+            message: $('form textarea').val(),
+            date: JSON.stringify(new Date($('form #date').val()))
+        };
+        console.log(sendEmailFuncURL);
+        console.log(JSON.stringify(body));
+        $.post(sendEmailFuncURL, body, onSendEmailSuccess)
+            .fail(onSendEmailFail);
+    };
+
     // Register validation for entire form
-    $("#submitButton").click(validateForm);
+    $("#submitButton").click(submitForm);
 });
